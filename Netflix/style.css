@@ -19,8 +19,14 @@ body {
   border-radius: 20px;
   }
 
+.indexcontent {
+  font-size:1.3em;
+}
+
+
 /* Menu Items */
 #navbarDropdown {
+  font-family: "Segoe UI", Arial, sans-serif;
   color:black;
   background-color:red;
   border-bottom-left-radius: 15px;
@@ -40,6 +46,10 @@ body {
   background: rgba(139, 0, 0, .8);
 }
 
+#data.nav-link:hover {
+  background:rgba(139, 0, 0, .8);
+}
+
 ::after:hover {
   background:rgba(139, 0, 0, .8);
 }
@@ -57,17 +67,20 @@ body {
 }
 
 b {
-  font-size: 16px;
+  font-size: 18px;
   color:black;
   }
 
 #sources.nav-link {
-
+  font-family: "Segoe UI", Arial, sans-serif;
   border-bottom-right-radius: 15px;
   border-top-right-radius: 15px;
 }
 
-data {
+
+
+#data.nav-link {
+  font-family: "Segoe UI", Arial, sans-serif;
   color: black;
   background-color: red;
 }
@@ -90,6 +103,8 @@ data {
 }
 
 div.dropdown-menu.show {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: bolder;
     background-color: red;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -161,6 +176,11 @@ p:not(.intro) {
     
 }
 
+.imagesize { 
+  width: 100%;
+
+}
+
 .rounded.float-right.thumbnail {
   padding-bottom: 10px;
   padding-left: 5px;
@@ -173,10 +193,6 @@ p:not(.intro) {
     margin-left: 15px;
 }
 
-.row.content {
- margin-right: 4%;
-   
-}
 
 .res-circle { 
     width: 20%;
